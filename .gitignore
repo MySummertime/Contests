@@ -1,0 +1,35 @@
+# Local Python and Conda state (rebuild from root environment.yml).
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.conda/
+/Q3/q3/
+/Q4/q4/
+/Q3/huawei2026/
+/Q4/huawei2026/
+
+# Machine-local IDE, OS, credentials and solver logs.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+*.log
+*.lic
+
+# Generated outputs; retain only the supplied workbook templates.
+/Q3/results/*
+!/Q3/results/res.xlsx
+/Q4/results/*
+!/Q4/results/res.xlsx
