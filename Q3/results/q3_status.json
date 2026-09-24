@@ -1,0 +1,118 @@
+{
+  "status": "UNCERTIFIED",
+  "transport": {
+    "trip_count": 31,
+    "missing": [],
+    "duplicate_count": 0,
+    "late_hard": [],
+    "max_return_s": 12528.370778720117,
+    "energy_kwh": 88.36359281849575
+  },
+  "relay": {
+    "status": "Gurobi status 3",
+    "windows": 2272,
+    "sites": 18
+  },
+  "gap_samples": 354,
+  "milp_uncovered_samples": 354,
+  "audit_issues": [
+    "T002: communication loss at 685.00s",
+    "T002: communication loss at 690.00s",
+    "T002: communication loss at 695.00s",
+    "T002: communication loss at 700.00s",
+    "T002: communication loss at 705.00s",
+    "T002: communication loss at 710.00s",
+    "T002: communication loss at 715.00s",
+    "T002: communication loss at 720.00s",
+    "T002: communication loss at 725.00s",
+    "T002: communication loss at 730.00s",
+    "T002: communication loss at 735.00s",
+    "T002: communication loss at 740.00s",
+    "T002: communication loss at 745.00s",
+    "T002: communication loss at 750.00s",
+    "T002: communication loss at 755.00s",
+    "T002: communication loss at 760.00s",
+    "T002: communication loss at 765.00s",
+    "T002: communication loss at 770.00s",
+    "T002: communication loss at 775.00s",
+    "T002: communication loss at 780.00s",
+    "T002: communication loss at 785.00s",
+    "T002: communication loss at 790.00s",
+    "T002: communication loss at 795.00s",
+    "T002: communication loss at 800.00s",
+    "T002: communication loss at 805.00s",
+    "T002: communication loss at 810.00s",
+    "T002: communication loss at 815.00s",
+    "T002: communication loss at 820.00s",
+    "T002: communication loss at 825.00s",
+    "T002: communication loss at 830.00s",
+    "T002: communication loss at 835.00s",
+    "T002: communication loss at 840.00s",
+    "T002: communication loss at 845.00s",
+    "T002: communication loss at 850.00s",
+    "T002: communication loss at 855.00s",
+    "T002: communication loss at 860.00s",
+    "T002: communication loss at 865.00s",
+    "T002: communication loss at 870.00s",
+    "T002: communication loss at 875.00s",
+    "T002: communication loss at 880.00s",
+    "T002: communication loss at 885.00s",
+    "T002: communication loss at 890.00s",
+    "T002: communication loss at 895.00s",
+    "T002: communication loss at 900.00s",
+    "T002: communication loss at 905.00s",
+    "T002: communication loss at 910.00s",
+    "T002: communication loss at 914.51s",
+    "T002: communication loss at 915.00s",
+    "T002: communication loss at 920.00s",
+    "T002: communication loss at 925.00s"
+  ],
+  "audit_step_s": 5.0,
+  "continuous_certified": false,
+  "search": [
+    {
+      "iteration": 0,
+      "status": "Gurobi status 3",
+      "score": 822.5951068632357,
+      "gap_samples": 356,
+      "uncovered": 356
+    },
+    {
+      "iteration": 1,
+      "status": "not improved",
+      "score": 822.5951068632357
+    },
+    {
+      "iteration": 2,
+      "status": "not improved",
+      "score": 822.5951068632357
+    },
+    {
+      "iteration": 3,
+      "status": "Gurobi status 3",
+      "score": 822.3884562075287,
+      "gap_samples": 354,
+      "uncovered": 354
+    },
+    {
+      "iteration": 4,
+      "status": "not improved",
+      "score": 911.9578372448048
+    },
+    {
+      "iteration": 5,
+      "status": "hard transport infeasible",
+      "late_count": 6
+    },
+    {
+      "iteration": 6,
+      "status": "not improved",
+      "score": 822.3884562075287
+    },
+    {
+      "iteration": 7,
+      "status": "not improved",
+      "score": 1134.904230459938
+    }
+  ]
+}

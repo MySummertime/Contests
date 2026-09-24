@@ -29,7 +29,7 @@ Thumbs.db
 *.lic
 
 # Generated outputs; retain only the supplied workbook templates.
-/Q3/results/*
-!/Q3/results/res.xlsx
-/Q4/results/*
-!/Q4/results/res.xlsx
+#/Q3/results/*
+#!/Q3/results/res.xlsx
+#/Q4/results/*
+#!/Q4/results/res.xlsx
